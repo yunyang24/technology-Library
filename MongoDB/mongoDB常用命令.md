@@ -36,33 +36,33 @@
 
          db.printCollectionStats()
 
- 10. 查看主从复制状态
+  10. 查看主从复制状态
 
-         db.printReplicationInfo()
+          db.printReplicationInfo()
 
- 11. 修复数据库
+  11. 修复数据库
 
          db.repairDatabase()
 
- 12. 设置记录profiling，0=off 1=slow 2=all
+  12. 设置记录profiling，0=off 1=slow 2=all
 
-         db.setProfilingLevel(1)
+          db.setProfilingLevel(1)
 
- 13. 查看profiling
+  13. 查看profiling
 
-         show profile
+          show profile
 
- 14. 拷贝数据库
+  14. 拷贝数据库
 
-         db.copyDatabase('mail_addr','mail_addr_tmp')
+          db.copyDatabase('mail_addr','mail_addr_tmp')
 
-15. 删除collection
+ 15. 删除collection
 
-        db.mail_addr.drop()
+         db.mail_addr.drop()
 
-16. 删除当前的数据库
+ 16. 删除当前的数据库
 
-        db.dropDatabase()
+         db.dropDatabase()
 
 ####2. 增删改
 
