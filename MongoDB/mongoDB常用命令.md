@@ -4,55 +4,55 @@
 
          use admin
 
- 2. 增加或修改用户密码
+  2. 增加或修改用户密码
 
-        db.addUser('name','pwd')
+         db.addUser('name','pwd')
 
- 3. 查看用户列表
+  3. 查看用户列表
 
-        db.system.users.find()
+         db.system.users.find()
 
- 4. 用户认证
+  4. 用户认证
 
-        db.auth('name','pwd')
+         db.auth('name','pwd')
 
- 5. 删除用户
+  5. 删除用户
 
-        db.removeUser('name')
+         db.removeUser('name')
 
- 6. 查看所有用户
+  6. 查看所有用户
 
-        show users
+         show users
 
- 7. 查看所有数据库
+  7. 查看所有数据库
 
-        show dbs
+         show dbs
 
- 8. 查看所有的collection
+  8. 查看所有的collection
 
-        show collections
+         show collections
 
- 9. 查看各collection的状态
+  9. 查看各collection的状态
 
          db.printCollectionStats()
 
-10. 查看主从复制状态
+ 10. 查看主从复制状态
 
-        db.printReplicationInfo()
+         db.printReplicationInfo()
 
-11. 修复数据库
+ 11. 修复数据库
 
-        db.repairDatabase()
+         db.repairDatabase()
 
-12. 设置记录profiling，0=off 1=slow 2=all
+ 12. 设置记录profiling，0=off 1=slow 2=all
 
-        db.setProfilingLevel(1)
+         db.setProfilingLevel(1)
 
-13. 查看profiling
+ 13. 查看profiling
 
-        show profile
+         show profile
 
-14. 拷贝数据库
+ 14. 拷贝数据库
 
          db.copyDatabase('mail_addr','mail_addr_tmp')
 
