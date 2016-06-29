@@ -56,13 +56,13 @@
 
           db.copyDatabase('mail_addr','mail_addr_tmp')
 
- 15. 删除collection
+  15. 删除collection
 
-         db.mail_addr.drop()
+          db.mail_addr.drop()
 
- 16. 删除当前的数据库
+  16. 删除当前的数据库
 
-         db.dropDatabase()
+          db.dropDatabase()
 
 ####2. 增删改
 
